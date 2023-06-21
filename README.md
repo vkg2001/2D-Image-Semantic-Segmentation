@@ -1,21 +1,8 @@
-# ERFNet (PyTorch version)
+# ERFNet (PyTorch)
 
 This code is a toolbox that uses **PyTorch** for training and evaluating the **ERFNet** architecture for semantic segmentation.
 
-**For the Original Torch version please go [HERE](https://github.com/Eromera/erfnet)**
-
-NOTE: This PyTorch version has a slightly better result than the ones in the Torch version (used in the paper): 72.1 IoU in Val set and 69.8 IoU in test set.
-
 ![Example segmentation](example_segmentation.png?raw=true "Example segmentation")
-
-## Publications
-
-If you use this software in your research, please cite our publications:
-
-**"Efficient ConvNet for Real-time Semantic Segmentation"**, E. Romera, J. M. Alvarez, L. M. Bergasa and R. Arroyo, IEEE Intelligent Vehicles Symposium (IV), pp. 1789-1794, Redondo Beach (California, USA), June 2017. 
-**[Best Student Paper Award]**, [[pdf]](http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf)
-
-**"ERFNet: Efficient Residual Factorized ConvNet for Real-time Semantic Segmentation"**, E. Romera, J. M. Alvarez, L. M. Bergasa and R. Arroyo, Transactions on Intelligent Transportation Systems (T-ITS), December 2017. [[pdf]](http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17tits.pdf)
 
 ## Packages
 For instructions please refer to the README on each folder:
@@ -43,7 +30,3 @@ If you use Pip (make sure to have it configured for Python3.6) you can install w
 ```
 pip install numpy matplotlib torchvision Pillow visdom
 ```
-
-## License
-
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, which allows for personal and research use only. For a commercial license please contact the authors. You can view a license summary here: http://creativecommons.org/licenses/by-nc/4.0/
